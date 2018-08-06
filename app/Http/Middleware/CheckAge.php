@@ -19,8 +19,8 @@ class CheckAge
             return redirect('foo');
         }
 
-    }
+    
       return $next($request);
   }
-
+}
 
